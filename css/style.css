@@ -1,0 +1,146 @@
+@font-face {
+    font-family: RoadRadio;
+    src: url(../fonts/RoadRadio.otf);
+}
+@font-face {
+    font-family: RoadRadio-Thin;
+    src: url(../fonts/RoadRadio-Thin.otf);
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+ color: #ffffff;
+ font-family: RoadRadio;
+}
+
+.header {
+    padding-top: 30px;
+    background-color: #1b1b1b;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.header-info__top {
+    display: flex;
+    margin-left: -300px;  
+}
+
+.after-text {
+    margin-top: 20px;
+}
+
+.after-text::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 90px;
+    background: #ffffff;
+    transform: rotate(90deg);
+    position: relative;
+    left: 148px;
+    top: -23px;
+}
+
+.bold-text {
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 60px;
+}
+
+.header-paragraph {
+    line-height: 27px;
+}
+
+.medium-text {
+    font-family: RoadRadio-Thin;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hashtag {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hashtag > li > span {
+    margin-right: 80px;
+    font-size: 20px
+ }
+
+ .team {
+     color: #000000;
+     padding-top: 30px;
+ }
+
+ .team-row {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .team-item {
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 0 20px 30px 20px;
+    margin-bottom: 50px;
+ }
+
+ .team-name {
+     font-size: 30px;
+ }
+
+.team-quest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team-quest_number {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.team-quest:not(:first-child) {
+    margin-top: 20px;
+}
+
+.team-quest_text {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.team-quest_text > input {
+    margin-right: 20px;
+}
+
+.task {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
