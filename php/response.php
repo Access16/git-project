@@ -13,7 +13,3 @@
  file_put_contents('../json/res.json', $jsonData);
 
 echo($jsonData);
-
-//  $us = mysqli_fetch_assoc($res);
-
-//  print_r($us);

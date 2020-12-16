@@ -1,9 +1,3 @@
-let dis1;
-let dis2;
-let dis3;
-let dis4;
-let dis5;
-
 function ajaxSend() {
     $.ajax({
         url: './php/response.php',
@@ -109,20 +103,3 @@ $('.team-row').click(function(e) {
             console.log(data);
         }
     })
-
-    // $.ajax({
-    //   url: './php/bad.php',
-    //   type: 'POST',
-    //   dataType: 'html',
-    //   data: {
-    //     check: check
-    //   },
-    //   success (data) {
-    //     if(data) {
-    //       document.location.href = `/game/`;
-    //     }
-    //   }
-    // })
-});
-
-    
